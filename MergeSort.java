@@ -1,5 +1,3 @@
-
-
 public class MergeSort extends SortingAlgorithm{
 	
 	public MergeSort(int[] array) {
