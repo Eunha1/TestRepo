@@ -1,11 +1,11 @@
 
 public class Main {
     public static void main(String[] args) {
-    CountingSort countSort = new CountingSort(10);
-        int[] sortedArray = countSort.getArray();
+        RadixSort radixSort = new RadixSort(10);
+        int[] sortedArray = radixSort.getArray();
         System.out.println("unSorted array:");     
         printArray(sortedArray);
-        countSort.Sort();
+        radixSort.Sort();
         System.out.println("Sorted array:");     
         printArray(sortedArray);
     }
