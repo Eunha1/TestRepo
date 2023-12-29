@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 public class CountingSort extends SortingAlgorithm {
 	public CountingSort(int [] array) {
