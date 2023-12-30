@@ -6,7 +6,7 @@ public abstract class SortingAlgorithm {
 	public SortingAlgorithm(int [] array) {
 		this.array = array;
 	}
-	
+	//test merge and try conflict code
 	// Contructor generate random array
 	public SortingAlgorithm(int length) {
 		this.array = generateRandomArray(length);
@@ -15,7 +15,7 @@ public abstract class SortingAlgorithm {
 	// Generate ramdom array with length
 	private int[] generateRandomArray(int length) {
 		 Random random = new Random();
-	     int[] randomArray =  random.ints(length, 0, 1000).toArray();
+	     int[] randomArray =  random.ints(length, 0, 100000).toArray();
 	     return randomArray;
     }
 	
