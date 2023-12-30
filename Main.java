@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-    RadixSort countSort = new RadixSort(10);
+    MergeSort countSort = new MergeSort(10);
         int[] sortedArray = countSort.getArray();
         System.out.println("unSorted array:");     
         printArray(sortedArray);
