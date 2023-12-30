@@ -1,6 +1,5 @@
 import java.util.Arrays;
 public class CountingSort extends SortingAlgorithm {
-    private int length;
 
 	public CountingSort(int [] array) {
 		super(array);
